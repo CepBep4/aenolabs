@@ -8,6 +8,7 @@ class DevelopmentConfig(Config):
     HOST = 'http://127.0.0.1:5000'
     DEBUG = True
     BOTLINK = "https://t.me/severrr_72_bot"
+    TOKEN=""
 
 class TestingConfig(Config):
     TESTING = True
