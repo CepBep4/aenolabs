@@ -9,6 +9,7 @@ class DevelopmentConfig(Config):
     DEBUG = True
     BOTLINK = "https://t.me/severrr_72_bot"
     TOKEN=""
+    WEBAPP_URL=""
 
 class TestingConfig(Config):
     TESTING = True
